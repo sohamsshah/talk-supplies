@@ -41,4 +41,4 @@ This repository contains the code used to demonstrate during the talk. I hope yo
 
 Feel Free to raise a PR to add resources or anything you wanna share in general!
 
-### Thank you [@reactify_in](https://twitter.com/reactify_in) for having me! ♥
+### Thank you [@rnblr](https://twitter.com/ReactNativeBLR) for having me! ♥
