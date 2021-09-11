@@ -1,0 +1,86 @@
+@import "./../../index.css";
+
+.cl-alert{
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    color: var(--cl-primary-color);
+    background-color: var(--cl-primary-background-color);
+    border-color: var(--cl-primary-border-color);
+}
+
+.cl-alert-dismissible{
+    position: relative;
+}
+
+.cl-alert-dismiss{
+    color: #5e5d5d;
+    position:absolute;
+    top:0.5rem;
+    right:0.5rem;
+    background:none;
+    border:none;
+    cursor:pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.cl-alert-dismiss:hover{
+    
+    color: #212121;
+    cursor:pointer;
+}
+
+.cl-alert-dismiss:focus{
+    outline:none;
+}
+
+.cl-alert-primary{
+    color: var(--cl-primary-color);
+    background-color: var(--cl-primary-background-color);
+    border-color: var(--cl-primary-border-color);
+}
+
+.cl-alert-secondary{
+    color: var(--cl-secondary-color);
+    background-color: var(--secondary-background-color);
+    border-color: var(--secondary-border-color);
+}
+
+.cl-alert-success{
+    color: var(--success-color);
+    background-color: var(--success-background-color);
+    border-color: var(--success-border-color);
+}
+
+.cl-alert-danger{
+    color: var(--danger-color);
+    background-color: var(--danger-background-color);
+    border-color: var(--danger-border-color);
+}
+
+.cl-alert-warning{
+    color: var(--warning-color);
+    background-color: var(--warning-background-color);
+    border-color: var(--warning-border-color);
+}
+
+.cl-alert-info{
+    color: var(--info-color);
+    background-color: var(--info-background-color);
+    border-color: var(--info-border-color);
+}
+
+.cl-alert-light{
+    color: var(--light-color);
+    background-color: var(--light-background-color);
+    border-color: var(--light-border-color);
+}
+
+.cl-alert-dark{
+    color: var(--dark-color);
+    background-color: var(--dark-background-color);
+    border-color: var(--dark-border-color);
+}

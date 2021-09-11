@@ -1,0 +1,328 @@
+@import "./../../index.css";
+
+/* General Button CSS */
+
+.cl-button{
+    color:white;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    text-align:center;
+    font-size: 1rem;
+    display: inline-block;
+    border-radius: 6px;
+    cursor: pointer;
+    border:none;
+    box-shadow: 0 3px 5px -5px black;
+}
+
+.cl-button:hover{
+    transition:0.4s;
+}
+
+.cl-button:focus{
+    outline:none;
+}
+
+
+/* Filled Button */
+
+.cl-default.cl-filled{
+    background-color: var(--default-button);
+}
+
+.cl-default.cl-filled:hover{
+    background-color: var(--default-button-hover);
+}
+
+.cl-default.cl-filled:focus{
+    box-shadow: 0 0 6px var(--default-button-hover);
+}
+
+
+.cl-primary.cl-filled{
+    background-color: var(--primary-button);
+}
+
+.cl-primary.cl-filled:hover{
+    background-color: var(--primary-button-hover);
+}
+
+.cl-primary.cl-filled:focus{
+    box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.cl-secondary.cl-filled{
+    background-color: var(--secondary-button);
+}
+
+.cl-secondary.cl-filled:hover{
+    background-color: var(--secondary-button-hover);
+}
+
+.cl-secondary.cl-filled:focus{
+    box-shadow: 0 0 6px var(--secondary-button-hover);
+}
+
+/* Bordered Buttons */
+
+.cl-default.cl-bordered{
+    color: var(--default-button);
+    border: solid 1px var(--default-button);
+    
+}
+
+.cl-default.cl-bordered:hover{
+    background-color: var(--default-button);
+    color:white;
+}
+
+.cl-default.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.cl-primary.cl-bordered{
+    color: var(--primary-button);
+    border: solid 1px var(--primary-button);
+    
+}
+
+.cl-primary.cl-bordered:hover{
+    background-color: var(--primary-button);
+    color:white;
+}
+
+.cl-primary.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.cl-secondary.cl-bordered{
+    color: var(--secondary-button);
+    border: solid 1px var(--secondary-button);
+    
+}
+
+.cl-secondary.cl-bordered:hover{
+    background-color: var(--secondary-button);
+    color:white;
+}
+
+.cl-secondary.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--secondary-button-hover);
+}
+
+.cl-success.cl-filled{
+    background-color: var(--success-button);
+}
+
+.cl-success.cl-filled:hover{
+    background-color: var(--success-button-hover);
+}
+
+.cl-success.cl-filled:focus{
+    box-shadow: 0 0 6px var(--success-button-hover);
+}
+
+.cl-danger.cl-filled{
+    background-color: var(--danger-button);
+}
+
+.cl-danger.cl-filled:hover{
+    background-color: var(--danger-button-hover);
+}
+
+.cl-danger.cl-filled:focus{
+    box-shadow: 0 0 6px var(--danger-button-hover);
+}
+
+.cl-warning.cl-filled{
+    background-color: var(--warning-button);
+}
+
+.cl-warning.cl-filled:hover{
+    background-color: var(--warning-button-hover);
+}
+
+.cl-warning.cl-filled:focus{
+    box-shadow: 0 0 6px var(--warning-button-hover);
+}
+
+.cl-info.cl-filled{
+    background-color: var(--info-button);
+}
+
+.cl-info.cl-filled:hover{
+    background-color: var(--info-button-hover);
+}
+
+.cl-info.cl-filled:focus{
+    box-shadow: 0 0 6px var(--info-button-hover);;
+}
+
+.cl-light.cl-filled{
+    background-color: var(--light-button);
+    color:black;
+}
+
+.cl-light.cl-filled:hover{
+    background-color: var(--light-button-hover);
+}
+
+.cl-light.cl-filled:focus{
+    box-shadow: 0 0 6px var(--light-button-hover);
+}
+
+.cl-dark.cl-filled{
+    background-color: var(--dark-button);
+}
+
+.cl-dark.cl-filled:hover{
+    background-color: var(--dark-button-hover);
+}
+
+.cl-dark.cl-filled:focus{
+    box-shadow: 0 0 6px var(--dark-button-hover);;
+}
+
+/* Bordered Buttons */
+
+.cl-default.cl-bordered{
+    color: var(--default-button);
+    border: solid 1px var(--default-button);
+    
+}
+
+.cl-default.cl-bordered:hover{
+    background-color: var(--default-button);
+    color:white;
+}
+
+.cl-default.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.cl-primary.cl-bordered{
+    color: var(--primary-button);
+    border: solid 1px var(--primary-button);
+    
+}
+
+.cl-primary.cl-bordered:hover{
+    background-color: var(--primary-button);
+    color:white;
+}
+
+.cl-primary.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--primary-button-hover);
+}
+
+.cl-secondary.cl-bordered{
+    color: var(--secondary-button);
+    border: solid 1px var(--secondary-button);
+    
+}
+
+.cl-secondary.cl-bordered:hover{
+    background-color: var(--secondary-button);
+    color:white;
+}
+
+.cl-secondary.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--secondary-button-hover);
+}
+
+.cl-success.cl-bordered{
+    color: var(--success-button);
+    border: solid 1px var(--success-button);
+    
+}
+
+.cl-success.cl-bordered:hover{
+    background-color: var(--success-button);
+    color:white;
+}
+
+.cl-success.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--success-button-hover);
+}
+
+.cl-danger.cl-bordered{
+    color: var(--danger-button);
+    border: solid 1px var(--danger-button);
+    
+}
+
+.cl-danger.cl-bordered:hover{
+    background-color: var(--danger-button);
+    color:white;
+}
+
+.cl-danger.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--danger-button-hover);
+}
+
+.cl-warning.cl-bordered{
+    color: var(--warning-button);
+    border: solid 1px var(--warning-button);
+    
+}
+
+.cl-warning.cl-bordered:hover{
+    background-color: var(--warning-button);
+    color:white;
+}
+
+.cl-info.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--info-button-hover);
+}
+
+.cl-info.cl-bordered{
+    color: var(--info-button);
+    border: solid 1px var(--info-button);
+    
+}
+
+.cl-info.cl-bordered:hover{
+    background-color: var(--info-button);
+    color:white;
+}
+
+.cl-info.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--info-button-hover);
+}
+
+.cl-light.cl-bordered{
+    color: black;
+    border: solid 1px black;
+    
+}
+
+.cl-light.cl-bordered:hover{
+    background-color: var(--light-button-hover);
+    color:black;
+}
+
+.cl-light.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--light-button-hover);
+}
+
+.cl-dark.cl-bordered{
+    color: var(--dark-button);
+    border: solid 1px var(--dark-button);
+    
+}
+
+.cl-dark.cl-bordered:hover{
+    background-color: var(--dark-button);
+    color:white;
+}
+
+.cl-dark.cl-bordered:focus{
+    box-shadow: 0 0 6px var(--dark-button-hover);
+}
+
+
+
+
+
+
+
