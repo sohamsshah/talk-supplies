@@ -13,7 +13,20 @@ This repository contains the code used to demonstrate during the talk. I hope yo
 * https://circleci.com/blog/its-the-future/
 * https://css-tricks.com/comparing-the-new-generation-of-build-tools/
 
-## You can find my Talk Presentation slides 🎞 [here](https://www.canva.com/design/DAEo652kwqQ/TtFW2cTigMVtQ5JD8B56LA/view?utm_content=DAEo652kwqQ&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
+## Videos 📹
+* https://www.youtube.com/watch?v=QAwW0E9BXKc
+* https://www.youtube.com/watch?v=CNCLkjolS_o
+* https://www.youtube.com/watch?v=9XS_RA6zyyU
+
+## Podcasts 🎙
+* https://www.youtube.com/watch?v=UJypSr8IhKY&t=3315s
+* https://shoptalkshow.com/454/
+* https://shoptalkshow.com/448/
+
+
+### You can find my Talk Presentation slides 🎞 [here](https://www.canva.com/design/DAEo652kwqQ/TtFW2cTigMVtQ5JD8B56LA/view?utm_content=DAEo652kwqQ&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
+
+## Library that I published using Vite.js - [sodium-infinite-scroller](https://github.com/sohamsshah/sodium-infinite-scroller)
 
 ## Want to give a talk? 🗣 Here are few amazing places from where you can start from!
 * [React.js Bangalore](https://twitter.com/ReactBangalore)
@@ -28,4 +41,4 @@ This repository contains the code used to demonstrate during the talk. I hope yo
 
 Feel Free to raise a PR to add resources or anything you wanna share in general!
 
-### Thank you [@reactify_in](https://twitter.com/reactify_in) for having me! ♥
+### Thank you [@rnblr](https://twitter.com/ReactNativeBLR) for having me! ♥
