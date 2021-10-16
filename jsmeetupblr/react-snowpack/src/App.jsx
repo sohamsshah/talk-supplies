@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from "react";
 
 function App() {
   // Create the count state.
   const [count, setCount] = useState(0);
   // Update the count (+1 every second).
   useEffect(() => {
-    const timer = setTimeout(() => setCount(count + 1), 1000);
+    const timer = setTimeout(() => setCount(count + 2), 1000);
     return () => clearTimeout(timer);
   }, [count, setCount]);
   // Return the App component.
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Page has been open for <code>{count}</code> seconds.
+          Page has been open for <code>Count: {count}</code> seconds.
         </p>
       </header>
     </div>
