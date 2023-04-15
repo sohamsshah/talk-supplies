@@ -1,0 +1,22 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 35%;
+  background: #C0DBEA;
+  padding: 1rem;
+  z-index: 20;
+  border-radius: 32px;
+}
+
+.controls button {
+  margin-right: 0.5rem
+}
